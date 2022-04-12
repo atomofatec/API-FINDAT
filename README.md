@@ -2,10 +2,11 @@
 
 <p align="center">
   <a href ="#o-projeto"> Projeto </a>  • 
-  <a href ="#dart-proposta"> Proposta </a>  • 
-  <a href ="#calendar-cronograma-das-sprints"> Sprints </a>  • 
+  <a href ="#proposta"> Proposta </a>  • 
+  <a href ="#cronograma-das-sprints"> Sprints </a>  • 
   <a href ="#product-backlog">Product Backlog </a>  •
-    <a href ="#sprints-backlog">Sprints Backlog </a>  •
+  <a href ="#sprints-backlog">Sprints Backlog </a>  •
+  <a href ="#1ª-sprint">1ª Sprint</a>  •
   <a href ="#equipe"> Equipe </a> 
 </p>
 
@@ -28,13 +29,11 @@
  - 
  - 
  - 
- - 
  
  <br>
 
-  
 **:link: Clique no link abaixo para visualizar o modelo do site.**  
-> [Protótipo do Site]()
+> [Protótipo do Site](https://www.figma.com/proto/ZNn6ZE53cECwrjPMXIQr2n/API---Layout-do-Site?node-id=1526%3A435598&scaling=scale-down&page-id=1526%3A435597&starting-point-node-id=1526%3A435598)
 
 <br>
 
@@ -56,7 +55,7 @@
 
 <br>
 
-## Entrega 1° sprint
+## 1ª Sprint
 
 <h1 align="center"> <img src = "" /></h1>
 
