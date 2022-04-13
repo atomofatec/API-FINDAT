@@ -45,19 +45,19 @@
 
 ## Product Backlog
 
-<h1 align="center"> <img src = "" /></h1> 
+<h1 align="center"> <img src = "cronograma-sprint-v1.png" height=auto width=800px/></h1> 
 
 <br>
 
 ## Sprints Backlog 
 
-<h1 align="center"> <img src = "" /></h1> 
+<h1 align="center"> <img src = "backlog-sprints-v1.png" height=800px width=auto/></h1> 
 
 <br>
 
 ## 1ª Sprint
 
-<h1 align="center"> <img src = "" /></h1>
+<h1 align="center"> <img src = "backlog-produto-v1.png" height=800px width=auto/></h1>
 
 <br>
 
