@@ -68,9 +68,9 @@
 |Nome|Função|GitHub|
 | -------- |-------- |-------- |
 |**Rebeca Gama**|Scrum Master|[@GitHub](https://github.com/RebecaGama)|
-|**João Gabriel**|Product Owner|[@GitHub](https://github.com/JGRMira)|
+|**João Gabriel**|Product Owner|[@GitHub](https://github.com/JoaoGRMira)|
 |**Elisa Carvalho**|Desenvolvedor|[@GitHub](https://github.com/elisadsc)|
 |**Nicholas Guilherme**|Desenvolvedor|[@GitHub](https://github.com/NicholasGui29)|
-|**Víctor Henrique**|Desenvolvedor|[@GitHub]()|
+|**Víctor Henrique**|Desenvolvedor|[@GitHub](https://github.com/ViktorHenrique)|
 
 <br>
