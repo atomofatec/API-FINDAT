@@ -1,6 +1,8 @@
+
 # API 1º Semestre 2022 - Equipe Átomo
 
-<p align="center">
+  
+<p text-align=center>
   <a href ="#o-projeto"> Projeto </a>  • 
   <a href ="#proposta"> Proposta </a>  • 
   <a href ="#cronograma-das-sprints"> Sprints </a>  • 
