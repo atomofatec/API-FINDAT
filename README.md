@@ -15,7 +15,8 @@
 ## O Projeto
 <br>
 
-> Status do Projeto: Em andamento
+**Status do Projeto: Em andamento**<br><br>
+- O objetivo deste projeto é o desenvolvolvimento um sistema web para automatizar o processo de catalogar vagas de diversas profissões principalmente TI e configurar métricas para pontos como tipos de conhecimento, habilidades e competências. Visualmente deverá ter informações do tipo estratégicas (gráficos), facilidades de usabilidade e operação bem como toda a documentação de desenvolvimento lastreado no Github com todos os processos necessários para a fidelização do cliente.
 
 <br>
 
@@ -25,10 +26,11 @@
 
  > **Requisitos**
 
- -  
- - 
- - 
- - 
+ - Linguagem Python (Requisito Fatec)
+ - Linguagem HTML e CSS (Requisito Fatec)
+ - Uso do framework Bootstrap
+ - Apresentação via Github
+ - O sistema web deverá ter no minimo 5 p+aginas (Página principal do projeto, Vagas de Emprego, Cursos e Certificações, Métricas (conhecimentos necessários, habilidades e requisitos) e Localização (vagas e cursos))
  
  <br>
 
@@ -39,25 +41,25 @@
 
 ## Cronograma das Sprints
 
-<h1 align="center"> <img src = ""/></h1>
+<h1 align="center"> <img src = "cronograma-sprint-v1.png" height=auto width=800px></h1>
 
 <br>
 
 ## Product Backlog
 
-<h1 align="center"> <img src = "cronograma-sprint-v1.png" height=auto width=800px/></h1> 
+<h1 align="center"> <img src = "backlog-produto-v1.png" height=800px width=auto></h1> 
 
 <br>
 
 ## Sprints Backlog 
 
-<h1 align="center"> <img src = "backlog-sprints-v1.png" height=800px width=auto/></h1> 
+<h1 align="center"> <img src = "backlog-sprints-v1.png" height=800px width=auto></h1> 
 
 <br>
 
 ## 1ª Sprint
 
-<h1 align="center"> <img src = "backlog-produto-v1.png" height=800px width=auto/></h1>
+<h1 align="center"> <img src = ></h1>
 
 <br>
 
