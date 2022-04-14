@@ -1,0 +1,81 @@
+body {
+    height: 100vh;
+    margin: 0px;
+    display: grid;
+    grid-template-rows: 60px 1fr 400px 40px;
+    grid-template-areas: "cabecalho" "principal" "conteudo" "rodape";
+}
+
+.cabecalho {
+    grid-area: cabecalho;
+    background-color: #3642af;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.principal {
+    grid-area: principal;
+    background-image: url("img/fundo-inicio.jpg");
+    height: calc(150vh - 500px);
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+    align-items: center;
+}
+
+.texto {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.conteudo {
+    grid-area: conteudo;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rodape {
+    grid-area: rodape;
+    background-color: #3642af;
+    display: flex;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+li {
+    display: inline;
+    flex-direction: row;
+    padding-left: 25px;
+    font-size: 1.3rem;
+}
+
+a {
+    display: inline;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f0f0f0;
+}
+
+footer {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.logotipo {
+    font-size: 1.3rem;
+    padding-left: 50px;
+}
