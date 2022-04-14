@@ -1,7 +1,6 @@
 
 <h1 align="center">API 1º Semestre 2022 - Equipe Átomo</h1>
 
-  
 <p align="center">
   <a href ="#o-projeto"> Projeto </a>  • 
   <a href ="#proposta"> Proposta </a>  • 
@@ -61,7 +60,7 @@
 
 ## 1ª Sprint
 
-<h1 align="center">Navegação pelas páginas HTML</h1>
+<h3>Navegação pelas páginas HTML</h3>
 
 https://user-images.githubusercontent.com/100942191/163289378-83c283c7-ab2d-4f39-b957-ee241e7b26db.mp4
 
