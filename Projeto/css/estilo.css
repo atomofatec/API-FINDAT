@@ -1,0 +1,225 @@
+body.test{
+    height: 100vh;
+    margin: 0px;
+    display: grid;
+    grid-template-rows: 60px 1fr 400px 40px;
+    grid-template-areas: "cabecalho" "principal" "conteudo" "rodape";
+}
+
+.cabecalho {
+    grid-area: cabecalho;
+    background-color: #3642af;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.principal {
+    grid-area: principal;
+    background-image: url("img/fundo-inicio.jpg");
+    height: calc(150vh - 500px);
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+    align-items: center;
+}
+
+.texto {
+    color: #b9b9b9;
+    font-size: 1.2rem;
+}
+
+.conteudo {
+    grid-area: conteudo;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rodape {
+    grid-area: rodape;
+    background-color: #3642af;
+    display: flex;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+li {
+    display: inline;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+a {
+    display: inline;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f0f0f0;
+}
+
+footer {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.logotipo {
+    font-size: 1.3rem;
+    padding-left: 50px;
+}
+
+#f1 {
+    text-align: center;
+    color: #b9b9b9;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 10px 0 5px;
+}
+
+#f2 {
+    text-align: center;
+    color: #b9b9b9;
+    font-size: 40px;
+}
+
+#f3 {
+    width: 85%;
+    height: 122px;
+    background-color: white;
+    padding: 10px 10px;
+    float: center;
+}
+
+#rodape {
+    background-color: #3642AF;
+    text-align: center;
+    border: solid 1px #3642AF;
+    font-size:10pt;
+    font-family: Verdana;
+    font-weight:bold;
+    width:100%;
+    color:rgb(255, 255, 255);
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    padding: 8px 0 1px;
+}
+
+#menu-h{
+    font-size: 16px;
+    background-color: #3642AF;
+    height:69px;
+    width: 100%;
+    position:fixed;
+}
+    
+#menu-h ul {
+    max-width: 95%;
+    list-style: none;
+    padding: 0;
+    float: right
+}
+
+#menu-h ul li {
+    display: inline;
+
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: #5393FB;
+}
+
+.imagens {
+            
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+
+.button {
+	background: #3642AF;
+    width: 90px;
+    padding: 7px 15px;
+    margin: 0px 0;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+.center {
+    float: center;
+}
+
+.right {
+    float: right;
+}
+
+.button:hover {
+	background: #5393FB;
+	text-decoration: none;
+	color: white;
+}
+
+e1 {
+    font-size: 19px;
+    font-weight:800;
+}
+
+e2 {
+    font-size: 15px;
+    font-weight:600;
+    float: left;
+}
+
+e3 {
+    float: left;
+    padding: 5px 0;
+}
+
+label.logo {
+    color: #FFF;
+    font-size: 25px;
+    padding: 16px 50px;
+}
+
+label.rod {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+#caixaMetricas{
+    padding: 20px;
+    background-color: rgb(218, 218, 218);
+    margin: 4%;
+    border-radius: 10px;
+}
+
+.fechar{
+    color: red;
+    font-weight: 600;
+    font-size: 30px;
+}
