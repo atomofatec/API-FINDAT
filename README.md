@@ -1,6 +1,6 @@
 
 <h1 align="center">API 1º Semestre 2022 - Equipe Átomo</h1>
-X
+
   
 <p align="center">
   <a href ="#o-projeto"> Projeto </a>  • 
@@ -32,7 +32,7 @@ X
  - Linguagem HTML e CSS (Requisito Fatec)
  - Uso do framework Bootstrap
  - Apresentação via Github
- - O sistema web deverá ter no minimo 5 páginas (Página principal do projeto, Vagas de Emprego, Cursos e Certificações, Métricas (conhecimentos necessários, habilidades e requisitos) e Localização (vagas e cursos))
+ - O sistema web deverá ter no mínimo 5 páginas (Página principal do projeto, Vagas de Emprego, Cursos e Certificações, Métricas (conhecimentos necessários, habilidades e requisitos) e Localização (vagas e cursos))
  
  <br>
 
