@@ -42,7 +42,7 @@
 
 ## Cronograma das Sprints
 
-<h1 align="center"> <img src = "Projeto/imagens-git/cronograma-sprint-v2.png" height=auto width=800px></h1>
+<h1 align="center"> <img src = "Projeto/imagens-git/cronograma-sprints-v2.png" height=auto width=800px></h1>
 
 <br>
 
