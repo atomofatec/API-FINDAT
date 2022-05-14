@@ -31,7 +31,7 @@
  - Linguagem HTML e CSS (Requisito Fatec)
  - Uso do framework Bootstrap
  - Apresentação via Github
- - O sistema web deverá ter no mínimo 5 páginas (Página principal do projeto, Vagas de Emprego, Cursos e Certificações, Métricas (conhecimentos necessários, habilidades e requisitos) e Localização (vagas e cursos))
+ - O sistema web deverá ter no mínimo 5 páginas (Página principal do projeto, Vagas de Emprego, Cursos e Certificações, Métricas (conhecimentos necessários, habilidades e requisitos) e Localização (vagas e cursos)
  
  <br>
 
