@@ -8,7 +8,7 @@
   <a href ="#product-backlog">Product Backlog </a>  •
   <a href ="#sprints-backlog">Sprints Backlog </a>  •
   <a href ="#1ª-sprint">Produto</a>  •
-  <a href ="#equipe"> Equipe </a> 
+  <a href ="#equipe">Equipe</a> 
 </p>
 
 <br>
