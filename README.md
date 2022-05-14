@@ -42,19 +42,19 @@
 
 ## Cronograma das Sprints
 
-<h1 align="center"> <img src = "Projeto/Imagens Git/cronograma-sprint-v1.png" height=auto width=800px></h1>
+<h1 align="center"> <img src = "Projeto/Imagens Git/cronograma-sprint-v2.png" height=auto width=800px></h1>
 
 <br>
 
 ## Product Backlog
 
-<h1 align="center"> <img src = "Projeto/Imagens Git/backlog-produto-v1.png" height=800px width=auto></h1> 
+<h1 align="center"> <img src = "Projeto/Imagens Git/backlog-produto-v2.png" height=800px width=auto></h1> 
 
 <br>
 
 ## Sprints Backlog 
 
-<h1 align="center"> <img src = "Projeto/Imagens Git/backlog-sprints-v1.png" height=800px width=auto></h1> 
+<h1 align="center"> <img src = "Projeto/Imagens Git/backlog-sprints-v2.png" height=800px width=auto></h1> 
 
 <br>
 
