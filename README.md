@@ -7,7 +7,7 @@
   <a href ="#cronograma-das-sprints"> Sprints </a>  • 
   <a href ="#product-backlog">Product Backlog </a>  •
   <a href ="#sprints-backlog">Sprints Backlog </a>  •
-  <a href ="#1ª-sprint">1ª Sprint</a>  •
+  <a href ="#1ª-sprint">Produto</a>  •
   <a href ="#equipe"> Equipe </a> 
 </p>
 
