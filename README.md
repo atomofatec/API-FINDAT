@@ -2,9 +2,9 @@
 <h1 align="center">API 1º Semestre 2022 - Equipe Átomo</h1>
 
 <p align="center">
-  <a href ="#o-projeto"> Projeto </a>  • 
-  <a href ="#proposta"> Proposta </a>  • 
-  <a href ="#cronograma-das-sprints"> Sprints </a>  • 
+  <a href ="#o-projeto">Projeto </a>  • 
+  <a href ="#proposta">Proposta </a>  • 
+  <a href ="#cronograma-das-sprints">Cronograma das Sprints </a>  • 
   <a href ="#product-backlog">Product Backlog </a>  •
   <a href ="#sprints-backlog">Sprints Backlog </a>  •
   <a href ="#1ª-sprint">Produto</a>  •
