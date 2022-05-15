@@ -68,7 +68,7 @@ https://user-images.githubusercontent.com/100942191/163289378-83c283c7-ab2d-4f39
 
 <h3>2ª Sprint</h3>
 
-<h1 align="center"> <img src = "Projeto/imagens-git/backlog-sprits-v2.png" height=800px width=auto></h1> 
+https://user-images.githubusercontent.com/100942191/168497310-f76e7183-eb08-4041-ac10-866f6235959e.mp4
 
 <br>
 
