@@ -1,0 +1,387 @@
+body.test{
+    height: 100vh;
+    margin: 0px;
+    display: grid;
+    grid-template-rows: 69px 1fr 500px 40px;
+    grid-template-areas: "cabecalho" "principal" "conteudo" "rodape";
+}
+
+footer.fixar-rodape{
+    border-top: 1px solid #333;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+  }
+
+.cabecalho {
+    grid-area: cabecalho;
+    background-color: #3642af;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.principal {
+    grid-area: principal;
+    height: calc(150vh - 500px);
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+    align-items: center;
+}
+
+.texto {
+    color: #b9b9b9;
+    font-size: 1.2rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.conteudo {
+    grid-area: conteudo;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rodape {
+    grid-area: rodape;
+    background-color: midnightblue;
+    display: flex;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+li {
+    display: inline;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+a {
+    display: inline;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f0f0f0;
+}
+
+footer {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.logotipo {
+    font-size: 1.3rem;
+    padding-left: 50px;
+}
+
+#f1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 10px 0 5px;
+}
+
+#f2 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+#f3 {
+    width: 85%;
+    background-color: white;
+    padding: 10px 10px;
+    float: center;
+}
+
+#rodape {
+    background-color: midnightblue;
+    text-align: center;
+    border: solid 1px midnightblue;
+    font-size:10pt;
+    font-family: Verdana;
+    font-weight:bold;
+    width:100%;
+    color:rgb(255, 255, 255);
+    /*position:fixed;*/
+    bottom:0px;
+    left:0px;
+    padding: 8px 0 1px;
+}
+
+#menu-h{
+    font-size: 16px;
+    background-color: midnightblue;
+    height:69px;
+    width: 100%;
+    position:fixed;
+}
+    
+#menu-h ul {
+    max-width: 95%;
+    list-style: none;
+    padding: 0;
+    float: right
+}
+
+#menu-h ul li {
+    display: inline;
+
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: #5393FB;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+
+.button {
+	background: midnightblue;
+    width: 90px;
+    padding: 7px 15px;
+    margin: 0px 0;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+.center {
+    float: center;
+}
+
+.right {
+    float: right;
+}
+
+.button:hover {
+	background: #5393FB;
+	text-decoration: none;
+	color: white;
+}
+
+e1 {
+    font-size: 19px;
+    font-weight:800;
+}
+
+e2 {
+    font-size: 15px;
+    font-weight:600;
+    float: left;
+}
+
+e3 {
+    float: left;
+    text-align: left;
+    padding: 5px 0;
+}
+
+label.logo {
+    color: #FFF;
+    font-size: 25px;
+    padding: 16px 1px;
+}
+
+label.rod {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+#caixaMetricas{
+    padding: 20px;
+    background-color: yellowgreen;
+    margin: 4%;
+    border-radius: 10px;
+}
+
+.fechar{
+    color: red;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.boxini {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 10px 10px;
+    float: center;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #b9b9b9;
+    border-width: 1px;
+}
+
+.tituloboxini {
+    font-size: 19px;
+    font-weight:800;
+}
+
+.txtboxini {
+    color: #b9b9b9;
+    font-size: 1.5rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.botoes{
+    margin-bottom: 10px;
+}
+
+.botoes > a{
+    padding: 6px 20px;
+    font-size: 20px;
+    border: solid midnightblue;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    margin-left: 10px;
+}
+
+.botoes2 > a{
+    margin-left: 50px !important;
+    margin-bottom: 100px;
+}
+
+.botoes > a:hover{
+    background-color: rgb(248, 230, 196);
+    text-decoration: none;
+    color: black;
+}
+
+.botoes > a:focus{
+    background-image: linear-gradient(to top, #f8c44f, #f9be4d, #fab94b, #fbb34a, #fbad49);
+    text-decoration: none;
+    color: black;
+}
+
+#tituloini {
+    text-align: center;
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 10px 0 5px;
+}
+
+#textoini {
+    text-align: center;
+    color: #FFF;
+    font-size: 40px;
+}
+
+.informacoes {
+    color: #b9b9b9;
+    font-size: 1.5rem;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.botaoPopUp {
+    font-size: 1em;
+    padding: 10px;
+    color: #fff;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.botaoPopUp:hover {
+    background: #06D85F;
+}
+
+.sobrepor {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.sobrepor:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 135px auto;
+    padding: 60px;
+    background: #fff;
+    border-radius: 5px;
+    width: 60%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popup .close:hover {
+    color: midnightblue;
+}
+
+.popup .content {
+    max-height: 40%;
+    overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+    .popup {
+        width: 70%;
+    }
+}
+
+.logoimg{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
