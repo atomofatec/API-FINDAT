@@ -72,6 +72,12 @@ https://user-images.githubusercontent.com/100942191/168497310-f76e7183-eb08-4041
 
 <br>
 
+<h3>3ª Sprint</h3>
+
+(Vídeo)
+
+<br>
+
 ## Equipe 
 
 <br>
