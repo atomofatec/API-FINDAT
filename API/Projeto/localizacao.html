@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Localização</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilo.css">
+        <script type="text/javascript" src="js/Java.js"></script>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/bootstrap-min.css">
+        <title>Localização</title>
+        <style>
+            body {
+            background-image: url("imagens-site/fundo-localizacao.png");
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <nav id="menu-h">
+            <img src="imagens-site/Logo.png" width="50px" alt="Logo" class="logoimg">
+            <label class="logo">FINDAT</label> 
+            <ul>
+                <li><a href="home.html">Início</a></li>
+                <li><a href="vagas.html">Vagas</a></li>
+                <li><a href="localizacao.html">Localização</a></li>
+                <li><a href="cursos.html">Cursos/Certificações</a></li>
+                <li><a href="metricas.html">Métricas</a></li>
+            </ul>
+        </nav>
+        <br><br><br><br>
+        <div id="f1">Localização</div></p>
+        <br>
+        <div id="f2">Selecione a região para<br>navegar por vagas<br>próximas</div></p>
+        <br><br>
+        <div class="container text-center">   
+            <div class="well" style="margin-bottom: 110px;">
+                <br><br><br>
+                <div class="botoes botoes3">
+                    <a href="#" onclick="toggleVisibility('Botao1');">Aparecida</a>
+                    <a href="#" onclick="toggleVisibility('Botao2');">Caçapava</a>
+                    <a href="#" onclick="toggleVisibility('Botao3');">Guaratinguetá</a>
+                    <a href="#" onclick="toggleVisibility('Botao7');">Home office</a>
+                </div>
+                <br><br>
+                <div class="botoes botoes3">
+                    <a href="#" onclick="toggleVisibility('Botao4');">Jacareí</a>
+                    <a href="#" onclick="toggleVisibility('Botao5');">Lorena</a>
+                    <a href="#" onclick="toggleVisibility('Botao8');">São José dos Campos</a>
+                    <a href="#" onclick="toggleVisibility('Botao6');">Taubaté</a>
+                </div>
+                <br><br>
+                <div id="selecionarBotao">
+                </div>
+                <div id="Botao1" style="display: none;">
+                    <br><br>
+                    <h2>3 vagas encontradas em Aparecida</h2>
+                    <br><br><br>
+                    <div id="f3" class="container">
+                        <e2>Santuário Nacional</e2>
+                        <e3>Responsável pela montagem, desmontagem e transporte de cenários de acordo com especificações 
+                                determinadas pela coordenação e cumprindo o prazo para a gravação do programa.</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.7015596369433!2d-45.23591448564842!3d-22.8505284416093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccc3687b4e0e9f%3A0x3997737338b35de0!2sSantu%C3%A1rio%20Nacional%20de%20Nossa%20Senhora%20Aparecida!5e0!3m2!1spt-BR!2sbr!4v1654053979749!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup59">Ver</a>
+                        <div id="popup59" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Santuário Nacional</p>
+                                    <p><strong>Área e especialização profissional: </strong>Técnico / Comunicação</p>
+                                    <p><strong>Requisitos:</strong> Técnico / Profissionalizante em Rádio e TV.</p>
+                                    <p><strong>Descrição da vaga: </strong>Responsável pela montagem, desmontagem e transporte de cenários de acordo com especificações 
+                                        determinadas pela coordenação e cumprindo o prazo para a gravação do programa.</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://www.softwarerh.com.br/v2/vaga-de-emprego.php?de=cenot-cnico-em-aparecida-sp___325154">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div id="f3" class="container">
+                        <e2>Atendente de Loja</e2>
+                        <e3>Você trabalhará na loja e terá contato direto com os nossos clientes, auxiliando-os com dúvidas, operando o caixa e ajudando no recebimento, reposição e organização de mercadorias.</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235276.97689276747!2d-45.455139662234814!3d-22.868967011761352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935bcdc03a554213%3A0x7bbdb33d03aacf7f!2sDrogasil!5e0!3m2!1spt-BR!2sbr!4v1653950748024!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup90">Ver</a>
+                        <div id="popup90" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Atendente de Loja</p>
+                                    <p><strong>Área e especialização profissional: </strong>Comércio</p>
+                                    <p><strong>Requisitos:</strong> Maior de 18 anos, Ensino Médio completo.</p>
+                                    <p><strong>Descrição da vaga: </strong>Você trabalhará na loja e terá contato direto com os nossos clientes, auxiliando-os com dúvidas, operando o caixa e ajudando no recebimento, reposição e organização de mercadorias.</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://empregovagas.com/vaga/vaga-de-atendente-de-loja-aparecida/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>   
+                    <div id="f3" class="container">
+                        <e2>Analista de Sistemas</e2>
+                        <e3>Gerenciamento de incidentes, gerenciamento de disponibilidade,
+                            gerenciamento de continuidade de serviço, melhoria contínua das ferramentas e processos da operação.</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29414.724474988816!2d-45.25118790850444!3d-22.845387643400954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccc35d46e8364b%3A0x84328ec5b5a92a5c!2sAparecida%2C%20SP%2C%2012570-000!5e0!3m2!1spt-BR!2sbr!4v1654059515002!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup35">Ver</a>
+                        <div id="popup35" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Analista de Sistemas</p>
+                                    <p><strong>Área e especialização profissional: </strong>TI</p>
+                                    <p><strong>Requisitos:</strong> Ensino Superior Completo; Ciências da Computação; Engenharia da Computação; Sistemas de Informação e áreas correlatas; Experiência em ambientes Windows, Linux e data center.</p>
+                                    <p><strong>Descrição da vaga: </strong>Gerenciamento de incidentes, gerenciamento de disponibilidade,
+                                        gerenciamento de continuidade de serviço, melhoria contínua das ferramentas e processos da operação.</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                </div>
+                <div id="Botao2" style="display: none;">
+                    <br><br>
+                    <h2>6 vagas encontradas em Caçapava</h2>
+                    <br><br><br>
+                    <div id="f3" class="container">
+                        <e2>Estágio Garantia de Qualidade</e2>
+                        <e3>Atendimento dos clientes internos e externos, Participar da rotina de garantia da qualidade, 
+                            auxiliar na avaliação de matéria prima e produto terminado para liberação.</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7339.178351817219!2d-45.722811377454974!3d-23.112130171880317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc53fd97af9fa9%3A0x730a49d5b7856e6b!2sNestl%C3%A9%20Brasil%20Ltda.!5e0!3m2!1spt-BR!2sbr!4v1654054133144!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup87">Ver</a>
+                        <div id="popup87" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Estágio Garantia de Qualidade</p>
+                                    <p><strong>Área e especialização profissional: </strong>Engenharia.</p>
+                                    <p><strong>Requisitos:</strong> Cursos Engenharia; Química e cursos afins; Conhecimento em Power BI e Excel; Inglês: básico; Alta Habilidade de relacionamento, foco no resultado e cooperação proativa; Desejável conhecimento prévio em qualidade e SAP</p>
+                                    <p><strong>Descrição da vaga: </strong>Atendimento dos clientes internos e externos, Participar da rotina de garantia da qualidade, 
+                                        auxiliar na avaliação de matéria prima e produto terminado para liberação.</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://br.indeed.com/empregos-em-Vale-do-Para%C3%ADba,-SP?vjk=4bb4371d2a23934c&advn=447524944999251">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div id="f3" class="container">
+                        <e2>Vendedor</e2>
+                        <e3>Responsável por fechar novos contratos atendendo os clientes em nosso escritório ou em sua residência.
+                                Atender os associados lhes prestando assessoria assim como novos parceiros em lojas, comércios de seguimento automotivo.</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58717.72720888535!2d-45.73861914936934!3d-23.10229526474823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc516de4e6e1a3%3A0x6544283198cf070f!2zQ2HDp2FwYXZhLCBTUA!5e0!3m2!1spt-BR!2sbr!4v1653957130169!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup54">Ver</a>
+                        <div id="popup54" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Vendedor</p>
+                                    <p><strong>Área e especialização profissional: </strong>Marketing</p>
+                                    <p><strong>Requisitos:</strong> Experiência em vendas e veiculo próprio será um diferencial mais não é exigência, temos orgulho em formar profissionais de alta-performace do absoluto zero.</p>
+                                    <p><strong>Descrição da vaga: </strong>Responsável por fechar novos contratos atendendo os clientes em nosso escritório ou em sua residência.
+                                        Atender os associados lhes prestando assessoria assim como novos parceiros em lojas, comércios de seguimento automotivo.</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://br.indeed.com/empregos-em-Ca%C3%A7apava,-SP?vjk=c006b7d36410bbd2">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div id="f3" class="container">
+                        <e2>Assistente Administrativo</e2>
+                        <e3>Será responsável por Contas a Pagar, Contas a Receber, fluxo de caixa, emissão de relatórios contabilidade. Suporte ao Administrativo no setor de Recursos Humanos.</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58717.72720888535!2d-45.73861914936934!3d-23.10229526474823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc516de4e6e1a3%3A0x6544283198cf070f!2zQ2HDp2FwYXZhLCBTUA!5e0!3m2!1spt-BR!2sbr!4v1653957130169!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup55">Ver</a>
+                        <div id="popup55" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Assistente Administrativo</p>
+                                    <p><strong>Área e especialização profissional: </strong>Administração / Finanças</p>
+                                    <p><strong>Requisitos:</strong> Administração de Empresas, Finanças, Possui experiência na função, Ter bons conhecimentos em Excel</p>
+                                    <p><strong>Descrição da vaga: </strong>Será responsável por Contas a Pagar, Contas a Receber, fluxo de caixa, emissão de relatórios contabilidade. Suporte ao Administrativo no setor de Recursos Humanos.</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://br.indeed.com/empregos?l=Ca%C3%A7apava%2C%20SP&vjk=43cc86dac1b0ffa3">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div id="f3" class="container">
+                        <e2>Assistente de Logística</e2>
+                        <e3>Distribuir e executar as atividades e liberação dos veículos, Monitorar o recebimento das cargas, Realizar a expedição da carga, 
+                                Registrar dados da nota fiscal da carga, Atualizar planilhas de movimentação de veículos.</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58717.72720888535!2d-45.73861914936934!3d-23.10229526474823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc516de4e6e1a3%3A0x6544283198cf070f!2zQ2HDp2FwYXZhLCBTUA!5e0!3m2!1spt-BR!2sbr!4v1653957130169!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup56">Ver</a>
+                        <div id="popup56" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Assistente de Logística</p>
+                                    <p><strong>Área e especialização profissional: </strong>Logística / Administração</p>
+                                    <p><strong>Requisitos:</strong> Conhecimento em Transporte/Logística; Excel intermediário; Formação em Logística ou Administração; Disponibilidade de horário.</p>
+                                    <p><strong>Descrição da vaga: </strong>Distribuir e executar as atividades e liberação dos veículos, Monitorar o recebimento das cargas, Realizar a expedição da carga, 
+                                        Registrar dados da nota fiscal da carga, Atualizar planilhas de movimentação de veículos.</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://br.indeed.com/empregos?l=Ca%C3%A7apava%2C%20SP&vjk=bcb244381a716cd7">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div id="f3" class="container">
+                        <e2>Estágio Comercial</e2>
+                        <e3>Fazer prospecção de novos alunos e fechar também novos contratos, além de ajudar a desenvolver estratégias comerciais. 
+                            Com conhecimento e experiência em calibração rastreável de equipamentos médicos.
+                        </e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117443.32231733389!2d-45.77277976111513!3d-23.09329494102373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc516de4e6e1a3%3A0x6544283198cf070f!2zQ2HDp2FwYXZhLCBTUA!5e0!3m2!1spt-BR!2sbr!4v1653940283258!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup37">Ver</a>
+                        <div id="popup37" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Estágio Comercial</p>
+                                    <p><strong>Área e especialização profissional: </strong>TI</p>
+                                    <p><strong>Requisitos:</strong> Não é preciso experiência na área, mas é necessário boa comunicação, mentalidade empreendedora, concentração.
+                                        </p>
+                                    <p><strong>Descrição da vaga: </strong>Fazer prospecção de novos alunos e fechar novos contratos, desenvolver estratégias comerciais.
+                                        </p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://br.indeed.com/empregos?l=Ca%C3%A7apava%2C%20SP&vjk=74d6c57d78fdc693">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div id="f3" class="container">
+                        <e2>Enfermeiro do trabalho</e2>
+                        <e3>Gestão operacional; Gestão de pessoas; Gestão dos atendimentos do cliente em Saúde Ocupacional; Gestão e organização nas demandas no cliente.</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58717.72720888535!2d-45.73861914936934!3d-23.10229526474823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc516de4e6e1a3%3A0x6544283198cf070f!2zQ2HDp2FwYXZhLCBTUA!5e0!3m2!1spt-BR!2sbr!4v1653957130169!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup94">Ver</a>
+                        <div id="popup94" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Enfermagem</p>
+                                    <p><strong>Área e especialização profissional: </strong>Enfermeiro do trabalho</p>
+                                    <p><strong>Requisitos:</strong> Graduação completa em enfermagem; Registro ativo no Coren/SP e anuidade em dia; Especialização em enfermagem do trabalho; Experiência em gestão de equipes.</p>
+                                    <p><strong>Descrição da vaga: </strong>Gestão operacional; Gestão de pessoas; Gestão dos atendimentos do cliente em Saúde Ocupacional; Gestão e organização nas demandas no cliente.</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://carreirasimtep.gupy.io/job/eyJqb2JJZCI6MTc4OTIyMSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                </div>
+                <div id="Botao3" style="display: none;">
+                    <br><br>
+                    <h2>3 vagas encontradas em Guaratinguetá</h2>
+                    <br><br><br>
+                    <div id="f3" class="container">
+                        <e2>Programa Supervisor do Varejo</e2>
+                        <e3>Ser referência para a equipe, Gerenciar o desempenho da loja e garantir os melhores resultados de vendas dos departamentos, Realizar e avaliar a exposição e a precificação dos produtos.</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7355.942935663798!2d-45.210945746093714!3d-22.803521099999983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccc441194f4885%3A0xd10a74f242833a94!2sAmericanas!5e0!3m2!1spt-BR!2sbr!4v1654054343301!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup89">Ver</a>
+                        <div id="popup89" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Programa Supervisor do Varejo.</p>
+                                    <p><strong>Área e especialização profissional: </strong>Engenharia.</p>
+                                    <p><strong>Requisitos:</strong> •	Graduação Completa nos curso: Administração, Ciências Atuariais, Ciências Contábeis, Economia, Engenharias, Estatística, Física ou Matemática, Graduado no último ano.</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://supervisordovarejolasa.gupy.io/job/eyJqb2JJZCI6MTcwODA1Mywic291cmNlIjoiZ3VweV9wdWJsaWNfcGFnZSJ9?jobBoardSource=gupy_public_page&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div id="f3" class="container">
+                        <e2>Técnico Eletrônico</e2>
+                        <e3>Técnico eletrônico para atuar com manutenção preventiva, corretiva e calibração de equipamentos eletromédicos. Para realizar atendimentos em clientes na região de Guaratinguetá.</e3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.936053491733!2d-46.79196258563005!3d-23.534802266495756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceffa8fcd76fe9%3A0x58f9946c8d4ba42e!2sInnovamed!5e0!3m2!1spt-BR!2sbr!4v1654054252452!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup88">Ver</a>
+                        <div id="popup88" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Técnico Eletrônico.</p>
+                                    <p><strong>Área e especialização profissional: </strong>Engenharia.</p>
+                                    <p><strong>Requisitos:</strong> Técnico em Operacional em Engenharia (Engenharia Elétrica, Eletrônica, Eletrotécnica).</p>
+                                    <p><strong>Descrição da vaga: </strong>atuar com manutenção preventiva, corretiva e calibração de equipamentos eletromédicos.</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://www.infojobs.com.br/vaga-de-tecnico-eletronico-guaratingueta-em-sao-paulo__8046378.aspx?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div id="f3" class="container">
+                        <e2>Pessoa Executiva de Vendas Pl</e2>
+                        <e3>Participar diariamente de reuniões, Prospectar novos negócios e realizar vendas porta a porta, Gerir as contas adquiridas e atuar no pós-venda.</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58511.260226049446!2d-46.75784746875!3d-23.570103999999986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce577ceebc565f%3A0x47c22a0d727acc8e!2sPagSeguro%20PagBank!5e0!3m2!1spt-BR!2sbr!4v1654058952623!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup58">Ver</a>
+                        <div id="popup58" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Pessoa Executiva de Vendas Pl.</p>
+                                    <p><strong>Área e especialização profissional: </strong>Administração / Gestão de negócios.</p>
+                                    <p><strong>Requisitos:</strong> Superior completo ou cursando; Experiência com vendas externas porta a porta; Excel intermediário.</p>
+                                    <p><strong>Descrição da vaga: </strong>Participar diariamente de reuniões, Prospectar novos negócios e realizar vendas porta a porta, Gerir as contas adquiridas e atuar no pós-venda.</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://pagseguro.gupy.io/job/eyJqb2JJZCI6MTcyNzAwOCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                </div>
+                <div id="Botao7" style="display: none;">
+                    <br><br>
+                    <h2>1 vaga encontrada em Home office</h2>
+                    <br><br><br>
+                    <div id="f3" class="container">
+                        <e2>Estágio Marketing de Performance</e2>
+                        <e3>Auxiliar na execução da estratégia de performance das lojas Dafiti e Kanui, coordenando o calendário de comunicações com as áreas comerciais 
+                            e de marketing e realizando o acompanhamento dos KPIs da área juntamente aos analistas da área.</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d936495.0244010696!2d-47.72886779999999!3d-23.525894799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57f8a7dde1e3%3A0xc8f1957d53cc2855!2sDafiti%20Group!5e0!3m2!1spt-BR!2sbr!4v1653957259761!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup80">Ver</a>
+                        <div id="popup80" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Estágio Marketing de Performance.</p>
+                                    <p><strong>Área e especialização profissional: </strong>Marketing.</p>
+                                    <p><strong>Requisitos:</strong> Cursando formação superior em Marketing, Administração, Moda, Engenharia e áreas relacionadas; Conhecimento em Excel (Intermediário); Cursando até o penúltimo ano da faculdade.</p>
+                                    <p><strong>Descrição da vaga: </strong>Auxiliar na execução da estratégia de performance das lojas Dafiti e Kanui, coordenando o calendário de comunicações com as áreas comerciais e de marketing e realizando o acompanhamento dos KPIs da área juntamente aos analistas da área.</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://www.vagas.com.br/vagas/v2372675/estagio-marketing-de-performance">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                </div>
+                <div id="Botao4" style="display: none;">
+                    <br><br>
+                    <h2>2 vagas encontradas em Jacareí</h2>
+                    <br><br><br>
+                    <div id="f3" class="container">
+                        <e2>Técnico de Serviços – Controle de Pragas Urbanas</e2>
+                        <e3>Estamos em busca de Técnico(a) de Serviços para fazer parte de nossa divisão de Pest Elimination, 
+                            líder no setor de controle de pragas e sanitização de ambientes.</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.7765143361576!2d-46.005335185638764!3d-23.214813854769446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc33df0e6357e9%3A0xc9ffacbc0941c3e0!2sEstr.%20Mun.%20Abade%20Biagino%20Chieffi%2C%2010000%20-%20Pagador%20de%20Andrade%2C%20Jacare%C3%AD%20-%20SP%2C%2012334-480!5e0!3m2!1spt-BR!2sbr!4v1654053896962!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup57">Ver</a>
+                        <div id="popup57" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Técnico de Serviços – Controle de Pragas Urbanas</p>
+                                    <p><strong>Área e especialização profissional: </strong>Técnico de Serviços.</p>
+                                    <p><strong>Requisitos:</strong> Possuir Ensino Médio completo; Disponibilidade de horario; Estar vacinado com a terceira dose contra a Covid-19; Residir e/ou ter disponibilidade para residir em Estrada Municipal Abade Biagino Chieffi, 10000, JCR 340, Pagador de Andrade, Jacareí-SP.</p>
+                                    <p><strong>Descrição da vaga: </strong>Já pensou em trabalhar em uma multinacional de grande porte e impactar no que realmente importa? A Ecolab é o seu lugar! Nossa empresa desenvolve soluções e tecnologias para alimentos seguros, ambientes limpos, prevenção de infecções e economia de água aos nossos clientes em mais de 170 países! Estamos em busca de Técnico(a) de Serviços para fazer parte de nossa divisão de Pest Elimination, líder no setor de controle de pragas e sanitização de ambientes.</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://www.vagas.com.br/vagas/v2361537/tecnico-a-de-servicos-controle-de-pragas-urbanas">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div id="f3" class="container">
+                        <e2>Estagiário na área de Pedagogia</e2>
+                        <e3>Ajudar nas aulas de educação infantil e fundamental, elaborar e corrigir atividades e provas 
+                            e realização pesquisas e estudos para aplicação de matérias em sala de aula.</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7328.072153049595!2d-45.997735828263835!3d-23.31444980922173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cdcc83d1ab2b8f%3A0x561684b6bb10256b!2sEscola%20Lopes%20e%20Lopes!5e0!3m2!1spt-BR!2sbr!4v1654053678287!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup56">Ver</a>
+                        <div id="popup56" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Estagiário na área de Pedagogia</p>
+                                    <p><strong>Área e especialização profissional: </strong>Educação</p>
+                                    <p><strong>Requisitos:</strong> Ensino superior em andamento; Sem experiência.</p>
+                                    <p><strong>Descrição da vaga: </strong>Ajudar nas aulas de educação infantil e fundamental, elaborar e corrigir atividades e provas e realização pesquisas e estudos para aplicação de matérias em sala de aula.</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://br.indeed.com/empregos?q=Educa%C3%A7%C3%A3o&l=Jacare%C3%AD,+SP&vjk=5a278a1042cfd9e6">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Botao5" style="display: none;">
+                    <br><br>
+                    <h2>4 vagas encontradas em Lorena</h2>
+                    <br><br><br>
+                    <div id="f3" class="container">
+                        <e2>Assistente de vendas</e2>
+                        <e3>Recepcionar e atender o cliente que entra na loja, Analisar o desempenho dos atuais e 
+                            novos produtos e checar também o ponto de venda, Organização da loja, trabalhar com metas de venda e de produtos financeiros.</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.2841034739195!2d-45.10828708565108!3d-22.754835538185915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccced13aebc905%3A0xd3c33610a4bf8f58!2sLojas%20Renner!5e0!3m2!1spt-BR!2sbr!4v1653951210040!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup52">Ver</a>
+                        <div id="popup52" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Assistente de vendas</p>
+                                    <p><strong>Área e especialização profissional: </strong>Comércio</p>
+                                    <p><strong>Requisitos:</strong> Ensino Médio Completo, Disponibilidade, facilidade de Comunicação, Habilidade para lidar com Computadores e Dispositivos Móveis, Flexibilidade e Adaptação, Atitude Positiva e Proatividade.</p>
+                                    <p><strong>Descrição da vaga: </strong>Você trabalhará na loja e terá contato direto com os nossos clientes, auxiliando-os com dúvidas, operando o caixa e ajudando no recebimento, reposição e organização de mercadorias.</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://renner.gupy.io/job/eyJqb2JJZCI6MTY4NjgxMiwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div id="f3" class="container">
+                        <e2>Gerente de Vendas</e2>
+                        <e3>Acompanhar relatório de vendas, acompanhar relatório de vendas, acompanhar e zelar pela arrumação 
+                            e organização do estoque e salão de vendas, realizar abertura/fechamento da loja</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.2778681722475!2d-45.10892018565112!3d-22.75506703819409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccced12644a691%3A0xb5723bf6bf3ba4a2!2sPolo%20Wear%20Lorena%20Outlet!5e0!3m2!1spt-BR!2sbr!4v1653950137149!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup50">Ver</a>
+                        <div id="popup50" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Gerente de Vendas</p>
+                                    <p><strong>Área e especialização profissional: </strong>Comércio / Gerência</p>
+                                    <p><strong>Requisitos:</strong> Experiência anterior em cargos de liderança em lojas, ter atuado no segmento de varejo de vestuário</p>
+                                    <p><strong>Descrição da vaga: </strong>Acompanhar relatório de vendas, acompanhar relatório de vendas, acompanhar e zelar pela arrumação 
+                                    e organização do estoque e salão de vendas, realizar abertura/fechamento da loja.</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://www.vagas.com.br/vagas/v2374810/gerente-de-vendas-loja-polo-wear">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div id="f3" class="container">
+                        <e2>Consultor de Vendas Jr</e2>
+                        <e3>Tratar os LEADS cumprindo os procedimentos e scripts estabelecidos, registrar as informações nos 
+                            sistemas corporativos, contatar Clientes Inativos para prospecção.</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58878.886002120984!2d-45.18718026874998!3d-22.730829100000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccc8e5e43c44ab%3A0x54596a8a0a75351a!2sDoMaia%20Seguros!5e0!3m2!1spt-BR!2sbr!4v1653950301615!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup51">Ver</a>
+                        <div id="popup51" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Consultor de Vendas Jr</p>
+                                    <p><strong>Área e especialização profissional: </strong>Comércio</p>
+                                    <p><strong>Requisitos:</strong> Ensino Médio completo e experiência em vendas</p>
+                                    <p><strong>Descrição da vaga: </strong>Tratar os LEADS cumprindo os procedimentos e scripts estabelecidos, registrar as informações nos 
+                                        sistemas corporativos, contatar Clientes Inativos para prospecção.</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://br.indeed.com/ver-emprego?cmp=DOMAIA-CONSULTORIA-E-CORRETAGEM-LTDA&t=Consultor+Vendas+Junior&jk=2c83d40763714eb2&vjs=3">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div id="f3" class="container">
+                        <e2>Analista de Suporte Técnico II</e2>
+                        <e3>Administração do parque de servidores e rede visando a manutenção e melhoria; gestão da segurança e adoção das 
+                                políticas corporativas; atendimento de chamados avançados e desenvolvimento de projetos de infraestrutura e segurança. Superior em Tecnologia da Informação</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58878.848969058956!2d-45.146431664522616!3d-22.73091511983119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccc9201d468adf%3A0xc9ce9c4b4546c622!2sLorena%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1654058642078!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup41">Ver</a>
+                        <div id="popup41" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Analista de Suporte Técnico II</p>
+                                    <p><strong>Área e especialização profissional: </strong>TI</p>
+                                    <p><strong>Requisitos:</strong> Experiência em: Administração e gerenciamento de servidores (físicos e virtuais), segurança, infraestrutura (rede).</p>
+                                    <p><strong>Descrição da vaga: </strong>Administração do parque de servidores e rede visando a manutenção e melhoria; gestão da segurança e adoção das 
+                                        políticas corporativas; atendimento de chamados avançados e desenvolvimento de projetos de infraestrutura e segurança. Superior em Tecnologia da Informação</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://www.catho.com.br/vagas/analista-de-suporte-tecnico-ii/20362998/?origem_apply=busca-de-vagas&entrada_apply=direto">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                </div>
+                <div id="Botao6" style="display: none;">
+                    <br><br>
+                    <h2>3 vagas encontradas em Taubaté</h2>
+                    <br><br><br>
+                    <div id="f3" class="container">
+                        <e2>Técnico de Microinformática</e2>
+                        <e3>Realizar manutenção de computadores, instalação de computadores em impressoras, instalação de sistema operacional, configuração de perfil e backup do usuário.</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29374.728553132532!2d-45.61035275459288!3d-23.029606982968257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4ac02d36c113%3A0x788a680f47be2b78!2sSYNC%20Telecom%20-%20Solu%C3%A7%C3%B5es%20Corporativas!5e0!3m2!1spt-BR!2sbr!4v1653944918601!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup42">Ver</a>
+                        <div id="popup42" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Técnico de Microinformática</p>
+                                    <p><strong>Área e especialização profissional: </strong>TI</p>
+                                    <p><strong>Requisitos:</strong> Experiência em planilhas de Excel, emissão de relatórios e microinformática, Ensino Técnico Completo ou Superior cursando na área de Tecnologia da Informação                                    
+                                        </p>
+                                    <p><strong>Descrição da vaga: </strong>Realizar manutenção de computadores, instalação de computadores em impressoras, instalação de sistema operacional, configuração de perfil e backup do usuário.</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://www.catho.com.br/vagas/tecnico-de-microinformatica/20582612/?origem_apply=busca-de-vagas&entrada_apply=direto">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div id="f3" class="container">
+                        <e2>Coordenador de Segurança da Informação</e2>
+                        <e3>Coordena e identifica oportunidades de aplicação de tecnologia e interage 
+                            com outras áreas de maneira a assegurar a segurança das informações da empresa.</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.3217078815824!2d-45.596184085643294!3d-23.048664348742086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccf899122a3567%3A0x3c5a59428037b2c!2sAv.%20Dom%20Pedro%20I%2C%206707%20-%20Granjas%20Reunidas%20S%C3%A3o%20Goncalo%2C%20Taubat%C3%A9%20-%20SP%2C%2012091-000!5e0!3m2!1spt-BR!2sbr!4v1653931767364!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup44">Ver</a>
+                        <div id="popup44" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Coordenador de Segurança da Informação</p>
+                                    <p><strong>Área e especialização profissional: </strong>TI</p>
+                                    <p><strong>Requisitos:</strong> Superior cursando (ou formado) em Sistemas de informação, Ciências da computação, Análise de Sistemas ou áreas semelhantes, Conhecimentos em C#, SQL, Java script, WebAPI, Windows Services.</p>
+                                    <p><strong>Descrição da vaga: </strong>---</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://www.catho.com.br/vagas/coordenador-de-seguranca-da-informacao/20202595/?origem_apply=busca-de-vagas&entrada_apply=direto">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div id="f3" class="container">
+                        <e2>Analista de Redes PL</e2>
+                        <e3>Apoio no desenvolvimento e implementação de projetos de redes, análise de requisitos de infra de network / segurança, documentação de projetos</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.3217078815824!2d-45.596184085643294!3d-23.048664348742086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccf899122a3567%3A0x3c5a59428037b2c!2sAv.%20Dom%20Pedro%20I%2C%206707%20-%20Granjas%20Reunidas%20S%C3%A3o%20Goncalo%2C%20Taubat%C3%A9%20-%20SP%2C%2012091-000!5e0!3m2!1spt-BR!2sbr!4v1653931767364!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup36">Ver</a>
+                        <div id="popup36" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Analista de Redes PL</p>
+                                    <p><strong>Área e especialização profissional: </strong>TI</p>
+                                    <p><strong>Requisitos:</strong> Ensino superior completo na área de tecnologia como Engenharia da Computação/Telecom, Ciência da Computação, Processamento de Dados, Redes de Computadores ou afins.</p>
+                                    <p><strong>Descrição da vaga: </strong>Apoio no desenvolvimento e implementação de projetos de redes, análise de requisitos de infra de network / segurança, documentação de projetos</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://www.catho.com.br/vagas/analista-de-redes-pl/20581084/?origem_apply=busca-de-vagas&entrada_apply=direto">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                </div>
+                <div id="Botao7" style="display: none;">
+                    <br><br>
+                    <h2>1 vaga encontrada em Contabilidade</h2>
+                    <br><br><br>
+                    <div id="f3" class="container">
+                        <p><e2>Assistente Contábil em Escritorio De Contabilidade</e2></p>
+                        <e3>Fechar Balanço de empresas no lucro presumido e lucro Real simples nacional, obrigações acessórias contábeis.</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.4694013189364!2d-45.89181508563848!3d-23.22599985517675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4a963d6041db%3A0xccab04403c744449!2sContabilidade%20e%20Condom%C3%ADnios%20Teixeira!5e0!3m2!1spt-BR!2sbr!4v1654054475997!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup98">Ver</a>
+                        <div id="popup98" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Assistente Contábil em Escritorio De Contabilidade</p>
+                                    <p><strong>Área e especialização profissional: </strong>Contabilidade</p>
+                                    <p><strong>Requisitos:</strong> Experiência em escritório contábil; Conhecer Excel; Sped contábil; ECD; Obrigações acessórias contábeis; Conhecer de imposto de renda pessoa jurídica.</p>
+                                    <p><strong>Descrição da vaga: </strong>Fechar Balanço de empresas no lucro presumido e lucro Real simples nacional.</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://br.indeed.com/empregos-em-Jambeiro,-SP?vjk=250a210c6a02785f&advn=1793591456649951">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Botao8" style="display: none;">
+                    <br><br>
+                    <h2>11 vagas encontradas em São José dos Campos</h2>
+                    <br><br><br>
+                    <div id="f3" class="container">
+                        <e2>Promotor</e2>
+                        <e3>Visitar as lojas no roteiro pré-definido, Verificar as rupturas dos produtos a serem repostos, Responder as pesquisas pré-estabelecidas no dispositivo de coleta de informação.</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117359.39763015725!2d-45.93306330128256!3d-23.189128647224653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4bb3858cc2e7%3A0xba25a33168f8c1!2zU8OjbyBKb3PDqSBkb3MgQ2FtcG9zLCBTUA!5e0!3m2!1spt-BR!2sbr!4v1653953411801!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup53">Ver</a>
+                        <div id="popup53" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Promotor</p>
+                                    <p><strong>Área e especialização profissional: </strong>Comércio</p>
+                                    <p><strong>Requisitos:</strong> Ensino médio completo; Diferencial com experiência em Farma; Comunicativo; Facilidade em se relacionar com pessoas; Conhecimento em merchandising; Sistemas de coletas pelo celular.</p>
+                                    <p><strong>Descrição da vaga: </strong>Visitar as lojas no roteiro pré-definido, Verificar as rupturas dos produtos a serem repostos, Responder as pesquisas pré-estabelecidas no dispositivo de coleta de informação.</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://poptrade.gupy.io/job/eyJqb2JJZCI6MTgwOTc4OSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div id="f3" class="container">
+                        <e2>Suporte Técnico de TI</e2>
+                        <e3>Atendimento de incidentes via telefone, e-mail, sistema de suporte, software de monitoramento e em campo, Identificar e diagnosticar problemas de software, hardware, periféricos, roteadores, switches, firewall, servidores, redes lógicas e físicas.</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.1948591234695!2d-45.897356985639156!3d-23.19956825421459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4b1f0506fb09%3A0xb48d2e31f6746e09!2zTlVCRVRFQ0ggfCBTb2x1w6fDtWVzICYgR2VzdMOjbyBkZSBUSQ!5e0!3m2!1spt-BR!2sbr!4v1653940501355!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup38">Ver</a>
+                        <div id="popup38" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Suporte Técnico de TI</p>
+                                    <p><strong>Área e especialização profissional: </strong>TI</p>
+                                    <p><strong>Requisitos:</strong> Prover documentação técnica; Ensino Superior completo ou cursando (relacionado a área); Conhecimento em Windows Server; Redes de Computadores e Mikrotik; Desejável experiência no software de Help Desk Milvus e RMM NinjaOne.</p>
+                                    <p><strong>Descrição da vaga: </strong>Atendimento de incidentes via telefone, e-mail, sistema de suporte, software de monitoramento e em campo, Identificar e diagnosticar problemas de software, hardware, periféricos, roteadores, switches, firewall, servidores, redes lógicas e físicas.</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://www.catho.com.br/vagas/suporte-tecnico-de-ti/20535831/?origem_apply=busca-de-vagas&entrada_apply=direto">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div id="f3" class="container">
+                        <e2>Consultor de Vendas – Tecnologia</e2>
+                        <e3>Realizar vendas de novos negócios e manutenção de clientes, atuar de forma hibrida tanto em manutenção de negócios como em prospecção.</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d234664.47461194373!2d-45.865545!3d-23.220063!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb35078256b2976b3!2sCol%C3%A9gio%20Tableau%20-%20S%C3%A3o%20Jos%C3%A9%20dos%20Campos!5e0!3m2!1spt-BR!2sbr!4v1653945202523!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup39">Ver</a>
+                        <div id="popup39" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Consultor de Vendas – Tecnologia</p>
+                                    <p><strong>Área e especialização profissional: </strong>TI</p>
+                                    <p><strong>Requisitos:</strong> Ensino superior completo na área de tecnologia como Engenharia da Computação/Telecom; Ciência da Computação; Processamento de Dados; Redes de Computadores ou afins.</p>
+                                    <p><strong>Descrição da vaga: </strong>Realizar vendas de novos negócios e manutenção de clientes, atuar de forma hibrida tanto em manutenção de negócios como em prospecção.</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://www.catho.com.br/vagas/consultor-de-vendas-tecnologia/20534931/?origem_apply=busca-de-vagas&entrada_apply=direto">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div id="f3" class="container">
+                        <e2>Analista de SAP</e2>
+                        <e3>Suporte e melhoria dos produtos SAP (MM, PP, FI, CO e QM) e Thonsom Reuters (Mastersaff DW e One Source Global Trade Senior RH), 
+                            solucionar problemas, realizar negociações, atender ao usuário e suporte sistemas.</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234718.7952603145!2d-46.0031011385437!3d-23.189128647224653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4bb3858cc2e7%3A0xba25a33168f8c1!2zU8OjbyBKb3PDqSBkb3MgQ2FtcG9zLCBTUA!5e0!3m2!1spt-BR!2sbr!4v1653941958723!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup40">Ver</a>
+                        <div id="popup40" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Analista de SAP</p>
+                                    <p><strong>Área e especialização profissional: </strong>TI / Informática</p>
+                                    <p><strong>Requisitos:</strong> Ter conhecimentos gerais em SAP (MM, PP, FI, CO e QM); Conhecer de instalação; Manutenção de sistemas e banco de dados;</p>
+                                    <p><strong>Descrição da vaga: </strong>Suporte e melhoria dos produtos SAP (MM, PP, FI, CO e QM) e Thonsom Reuters (Mastersaff DW e One Source Global Trade Senior RH); Solucionar Problemas; Realizar Negociações; Atender ao usuário; Suporte sistemas.</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://www.empregos.com.br/vagas/analista-de-sap/jacarei/sp/7655279/modal">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div id="f3" class="container">
+                        <e2>Programador de Software Pleno</e2>
+                        <e3>Atua no desenvolvimento, construção, implantação e manutenção de sistemas de processamento 
+                            de dados gerando logicamente as aplicações informatizadas.</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117336.45859754973!2d-46.038664437499996!3d-23.215257700000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc3580f97ad8ff%3A0xc49e77cc8ce5ddcd!2sOpensolutions%20Solu%C3%A7%C3%B5es%20Inform%C3%A1ticas!5e0!3m2!1spt-BR!2sbr!4v1653945140617!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup43">Ver</a>
+                        <div id="popup43" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Programador de Software Pleno</p>
+                                    <p><strong>Área e especialização profissional: </strong>TI</p>
+                                    <p><strong>Requisitos:</strong> Superior cursando (ou formado) em Sistemas de informação; Ciências da computação; Análise de Sistemas ou áreas semelhantes; Conhecimentos em C#, SQL, Java script, WebAPI, Windows Services
+                                        </p>
+                                    <p><strong>Descrição da vaga: </strong>Atua no desenvolvimento, construção, implantação e manutenção de sistemas de processamento de dados gerando logicamente as aplicações informatizadas.</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://www.catho.com.br/vagas/programador-de-software-pleno/20605245/?origem_apply=busca-de-vagas&entrada_apply=direto">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div id="f3" class="container">
+                        <e2>Técnico em Informática</e2>
+                        <e3>Realizar a análise dos problemas e erros de hardware e software, manutenção de equipamentos, Instalação, atualização, configuração e desinstalação de software nos produtos.</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234718.7952603145!2d-46.0031011385437!3d-23.189128647224653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4bb3858cc2e7%3A0xba25a33168f8c1!2zU8OjbyBKb3PDqSBkb3MgQ2FtcG9zLCBTUA!5e0!3m2!1spt-BR!2sbr!4v1653941958723!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup45">Ver</a>
+                        <div id="popup45" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Técnico em Informática</p>
+                                    <p><strong>Área e especialização profissional: </strong>TI</p>
+                                    <p><strong>Requisitos:</strong> Técnico Informática ou Eletrônica; Conhecimentos avançados de Micro Informática e Redes; Disponibilidade de horários e viagens, caso sejam demandadas pela área, CNH B definitiva                                    
+                                        </p>
+                                    <p><strong>Descrição da vaga: </strong>Realizar a análise dos problemas e erros de hardware e software, manutenção de equipamentos, Instalação, atualização, configuração e desinstalação de software nos produtos.</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://positivotecnologia.gupy.io/job/eyJqb2JJZCI6MTczMzAyMCwic291cmNlIjoiZ3VweV9wdWJsaWNfcGFnZSJ9?jobBoardSource=gupy_public_page">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div id="f3" class="container">
+                        <e2>Desenvolvedores Mobile – Flutter</e2>
+                        <e3>Buscamos profissionais onde possa estar atuando como Desenvolvedor Mobile do nosso aplicativo - Flutter .</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.4011808444593!2d-45.89335638563939!3d-23.192045853940996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4a130a2e2f17%3A0xd3561da13236daf9!2sEdificio%20Helbor%20Downtow%20Offices%20%26%20Mall%20-%20R.%20Eucl%C3%ADdes%20Miragaia%2C%20145%20-%201101%20-%20Centro%2C%20S%C3%A3o%20Jos%C3%A9%20dos%20Campos%20-%20SP%2C%2012245-820!5e0!3m2!1spt-BR!2sbr!4v1653947368525!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup46">Ver</a>
+                        <div id="popup46" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Desenvolvedores Mobile – Flutter</p>
+                                    <p><strong>Área e especialização profissional: </strong>TI</p>
+                                    <p><strong>Requisitos:</strong> Conhecimento em Desenvolvimento mobile Android e IOS, Android Studio e Xcode, Firebase, Integração e utilização de serviços Web e HTML5, CSS, Javascript</p>
+                                    <p><strong>Descrição da vaga: </strong>Buscamos profissionais para atuar como Desenvolvedor Mobile - Flutter.</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://datainfo.gupy.io/job/eyJqb2JJZCI6MTA3NzYyMiwic291cmNlIjoiZ3VweV9wdWJsaWNfcGFnZSJ9?jobBoardSource=gupy_public_page">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div id="f3" class="container">
+                        <e2>Desenvolvedor Xamarin</e2>
+                        <p></p><br>
+                        <e3>Desenvolver de aplicações</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234718.7952603145!2d-46.0031011385437!3d-23.189128647224653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4bb3858cc2e7%3A0xba25a33168f8c1!2zU8OjbyBKb3PDqSBkb3MgQ2FtcG9zLCBTUA!5e0!3m2!1spt-BR!2sbr!4v1653941958723!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup47">Ver</a>
+                        <div id="popup47" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Desenvolvedor Xamarin</p>
+                                    <p><strong>Área e especialização profissional: </strong>TI</p>
+                                    <p><strong>Requisitos:</strong> Ter experiência com desenvolvimento de aplicativos móveis usando alguma abordagem nativa ou híbrida.</p>
+                                    <p><strong>Descrição da vaga: </strong>Desenvolver de aplicações.</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://datainfo.gupy.io/job/eyJqb2JJZCI6MTc1MTU2MSwic291cmNlIjoiZ3VweV9wdWJsaWNfcGFnZSJ9?jobBoardSource=gupy_public_page">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div id="f3" class="container">
+                        <e2>Software Developer Engineer (SDE)</e2>
+                        <e3>Conceber soluções de software, desde a concepção até à implementação, Avaliar as necessidades dos clientes e determinar o alcance dos produtos existentes.</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14669.598801802113!2d-45.899879564369556!3d-23.1920998366708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4b2ba7707711%3A0xc0d80efbb97adfe7!2sBuser!5e0!3m2!1spt-BR!2sbr!4v1653948593236!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup48">Ver</a>
+                        <div id="popup48" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Software Developer Engineer (SDE)</p>
+                                    <p><strong>Área e especialização profissional: </strong>TI</p>
+                                    <p><strong>Requisitos:</strong> Proficiência em pelo menos uma linguagem de programação e banco de dados relacional; Conceber soluções de software, desde a concepção até à implementação; Avaliar as necessidades dos clientes e determinar o alcance dos produtos existentes; Possuir familiaridade com profundidade de algum framework.</p>
+                                    <p><strong>Descrição da vaga: </strong>Conceber soluções de software, desde a concepção até à implementação, Avaliar as necessidades dos clientes e determinar o alcance dos produtos existentes, Possuir familiaridade com profundidade de algum framework.</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://vemprabuser.gupy.io/job/eyJqb2JJZCI6MTUzNTAyOSwic291cmNlIjoiZ3VweV9wdWJsaWNfcGFnZSJ9?jobBoardSource=gupy_public_page">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div id="f3" class="container">
+                        <p><e2>Scrum Master</e2></p>
+                        <e3>Gerenciamento de squad, suporte no mapeamento, criação, aplicação e acompanhamento 
+                            de treinamentos, busca contínua por melhoria de performance do time, auxilio na automatização de processos manuais.</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117336.45859754973!2d-46.038664437499996!3d-23.215257700000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc3580f97ad8ff%3A0xc49e77cc8ce5ddcd!2sOpensolutions%20Solu%C3%A7%C3%B5es%20Inform%C3%A1ticas!5e0!3m2!1spt-BR!2sbr!4v1653945140617!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup49">Ver</a>
+                        <div id="popup49" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Vaga Presencial</p>
+                                    <p><strong>Área e especialização profissional: </strong>TI</p>
+                                    <p><strong>Requisitos:</strong> Experiência em escritório contábil; Conhecer Excel; Sped contábil; ECD; Obrigações acessórias contábeis; Conhecer de imposto de renda pessoa jurídica.</p>
+                                    <p><strong>Descrição da vaga: </strong>Gerenciamento de squad, suporte no mapeamento, criação, aplicação e acompanhamento 
+                                        de treinamentos, busca contínua por melhoria de performance do time, auxilio na automatização de processos manuais.</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://www.catho.com.br/vagas/scrum-master-vaga-presencial/20608746/?origem_apply=busca-de-vagas&entrada_apply=direto">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div id="f3" class="container">
+                        <e2>Engenheiro de Desenvolvimento de Produto (Foco em trens de pouso)</e2>
+                        <e3>Desenvolver, certificar, qualificar e prover suporte à frota e à produção de trens de pouso e componentes.</e3>
+                        <br><br><br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117349.66963572464!2d-45.90770470809875!3d-23.200212861756775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4df074f79a7d%3A0x20303d337e4ce526!2sEmbraer%20S%2FA%20Eug%C3%AAnio%20de%20Melo!5e0!3m2!1spt-BR!2sbr!4v1654054045731!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br><br><br>
+                        <a class="button right" href="#popup86">Ver</a>
+                        <div id="popup86" class="sobrepor">
+                            <div class="popup">
+                                <h2>Requisitos da Vaga</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p><strong>Vaga:</strong> Engenheiro de Desenvolvimento de Produto (Foco em trens de pouso).</p>
+                                    <p><strong>Área e especialização profissional: </strong>Engenharia.</p>
+                                    <p><strong>Requisitos:</strong> Superior completo em Engenharia; Inglês intermediário; Domínio do pacote Office. Conhecimentos em Linguagem de Programação (Matlab e Visual Basic); Conhecimentos em cálculos analíticos, termodinâmica e mecânica dos fluidos.</p>
+                                    <p><strong>Descrição da vaga: </strong>Desenvolver, certificar, qualificar e prover suporte à frota e à produção de trens de pouso e componentes.</p>
+                                    <br>
+                                    <a class="button right" target="_blank" href="https://embraer.gupy.io/job/eyJqb2JJZCI6MTcyNTI0Niwic291cmNlIjoiZ3VweV9wdWJsaWNfcGFnZSJ9?jobBoardSource=gupy_public_page">Acesse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                </div>
+                <br><br><br>
+            </div>
+        </div>
+        <br><br>
+        <footer>
+            <div id="rodape">
+                <label class="rod">Todos os direitos reservados - 2022</label>
+            </div>
+        </footer>
+    </body>
+</html>
