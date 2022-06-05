@@ -74,7 +74,7 @@ https://user-images.githubusercontent.com/100942191/168497310-f76e7183-eb08-4041
 
 <h3>3ª Sprint</h3>
 
-(Vídeo)
+https://user-images.githubusercontent.com/100942191/172070350-3fd39256-f740-41b3-8a1f-5c340a6b36bf.mp4
 
 <br>
 
